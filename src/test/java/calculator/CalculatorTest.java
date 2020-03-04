@@ -17,7 +17,7 @@ class CalculatorTest {
 		
 		assertEquals(7, result);
 		assertEquals(6.5, result2);
-		assertEquals(-4, result3);
+		assertEquals(-3, result3);
 	}
 
 	@Test
@@ -40,6 +40,7 @@ class CalculatorTest {
 	
 		Calculator test = new Calculator();
 		
+		
 		double result = test.Multiply(12, 12);
 		double result2 = test.Multiply(11.345, 12);
 		double result3 = test.Multiply(-12.5, -1.0);
@@ -56,8 +57,8 @@ class CalculatorTest {
 		Calculator test = new Calculator();
 		
 		double result = test.Divide(12, 1);
-		double result2 = test.Multiply(36.0, 6);
-		double result3 = test.Multiply(-12.5, -4.0);
+		double result2 = test.Divide(36.0, 6);
+		double result3 = test.Divide(-12.5, -4.0);
 		
 		
 		assertEquals(12, result);

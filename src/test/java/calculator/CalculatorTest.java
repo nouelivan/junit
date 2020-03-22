@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class CalculatorTest {
 
 	@Test
-	void testAdd() {
+	void Add() {
 		
 		Calculator test = new Calculator();
 		
@@ -21,7 +21,7 @@ class CalculatorTest {
 	}
 
 	@Test
-	void testSubtract() {
+	void Subtract() {
 		
 		Calculator test = new Calculator();
 		
@@ -36,7 +36,7 @@ class CalculatorTest {
 	}
 
 	@Test
-	void testMultiply() {
+	void Multiply() {
 	
 		Calculator test = new Calculator();
 		
@@ -52,7 +52,7 @@ class CalculatorTest {
 	}
 
 	@Test
-	void testDivide() {
+	void Divide() {
 		
 		Calculator test = new Calculator();
 		
